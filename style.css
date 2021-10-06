@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+.register_form_container{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: hsla(0,0%,100%,.7);
+    
+}
+.default-header{
+    color: #4ea4dc;
+    border-bottom: 3px solid #4ea4dc;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-input{
+
+    margin-top: 15px;
+}
+form input{
+    border: none;
+    width: 250px;
+    padding: 12px 20px;
+    background-color: #f7f9fa;
+    border-radius: 4px;
+    line-height: 22px;
+    outline: none;
+    position: relative;
+    
+
+}
+.submit{
+    margin-top: 20px;
+    line-height: 36px;
+    font-size: 20px;
+    padding: 0 24px;
+    display: inline-block;
+    border: 1px solid #4ea4dc;
+    background-color: #4ea4dc;
+    border-radius: 4px;
+    color: #fff;
+}
+.register_form_container p{
+    font-size: 12px;
+}
